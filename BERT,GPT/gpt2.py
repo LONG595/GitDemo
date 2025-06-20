@@ -9,7 +9,7 @@ model_path = "D:/user/local_models/gpt2-chinese-cluecorpussmall"
 tokenizer = BertTokenizer.from_pretrained(model_path)
 model = GPT2LMHeadModel.from_pretrained(model_path)
 
-prompt = "假如我能隐身一天，我会"
+prompt = "如果我拥有一台时间机器"
 inputs = tokenizer(prompt, return_tensors="pt")
 
 # 生成文本

@@ -56,8 +56,8 @@ food_reviews = [
 ]
 
 
-last_digit = 4  # 倒数第一位
-second_last_digit = 5  # 倒数第二位
+last_digit = 0 # 倒数第一位
+second_last_digit = 4 # 倒数第二位
 
 # 获取对应句子
 movie_review = movie_reviews[last_digit]
